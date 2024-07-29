@@ -19,9 +19,8 @@
  color: #9ea3ac;
  text-decoration: none;
 }
-.contacts{
-  margin-right: px;
-}
+
+
 .number,.email{
   margin: 0;
   padding: 0;
@@ -31,7 +30,13 @@
     margin-left: 60px;
    
 }
+.my-background{
+  background-color: transparent !important;
+}
 
+.link-background{
+  background-color: transparent !important;
+}
 
 .logo-icon{
   margin-left: 10px;
@@ -49,6 +54,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+ 
 }
 
 .custom-button:hover {
@@ -159,14 +165,29 @@ transition: all 1.2s ease;
   top: 40px;
   font-size: 40px;
 }
+.introduction-photo{
+  width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover !important; 
+    
+}
+.introduction-photo{
+  margin-top: -99px;
+}
 
 @media(min-width:320px) and (max-width:374px){
   .header-logo{
     width: 220px;
   }
+  .introduction-photo{
+    margin-top: -93px;
+  }
+ 
 }
 @media(min-width:768px) and (max-width:990px){
-
+.introduction-photo{
+  margin-top: -100px;
+}
 
 }
 @media(min-width:991px){
@@ -175,6 +196,12 @@ transition: all 1.2s ease;
   }
   
   .header-logo{
-    width: 210px;
+    width: 300px;
+  }
+  .introduction-photo{
+    margin-top: -155px; 
+    max-width: 100%;
+    height: auto;
+   
   }
 }

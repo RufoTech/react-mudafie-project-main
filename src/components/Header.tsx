@@ -117,7 +117,7 @@ const Header: React.FC = () => {
            </div>
         </div>
 
-      <nav className="navbar navbar-expand-lg bg-warning ">
+      <nav className="navbar navbar-expand-lg my-background py-2 ">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src="/assets/images/header/logo-light.webp" alt="" className='header-logo ' />
@@ -159,23 +159,23 @@ const Header: React.FC = () => {
           </div>
         </div>
       </nav>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg ">
       <div className="container">
      
-        
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 bg-warning py-2">
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 link-background ">
             <li className="nav-item ">
               <a className="nav-link text-light " aria-current="page" href="#"><h6 className='roboto-bold  navigation-links px-3'>START</h6></a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>HOMEPARK</h6></a>
-            </li>
+           
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>APARTMENTS</h6></a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>PAGES</h6></a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>FACILITIES</h6></a>
@@ -184,7 +184,7 @@ const Header: React.FC = () => {
               <a className="nav-link text-light" href="#"><h6 className='roboto-bold px-3 navigation-links'>NEWS</h6></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#"><h6 className='roboto-bold '>CONTACT</h6></a>
+              <a className="nav-link text-light" href="#"><h6 className='roboto-bold navigation-links '>CONTACT</h6></a>
             </li>
             
            
@@ -195,6 +195,7 @@ const Header: React.FC = () => {
           </ul>
          
         </div>
+        
       </div>
     </nav>
     </>
